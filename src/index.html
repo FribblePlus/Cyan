@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a7fbb27ef4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        @font-face {
+  font-family: SALongBeach;
+  src: url(./assets/SALongBeach.woff);
+}
+    </style>
+  </head>
+  <body class="bg-slate-950 text-white">
+    <!--Navigation bar-->
+    <div
+      class="bg-slate-950 flex sticky items-center justify-between z-50 border-b-[1px] border-slate-600 top-0"
+    >
+      <nav
+        class="flex items-center container md:justify-between p-4 mx-auto max-w-[1400px]"
+      >
+        <!--Flex container-->
+        <div class="flex items-center container justify-between">
+          <div class="">
+            <img class="p-3 md:p-0 w-24" src="./assets/logo.png" alt="" />
+          </div>
+          <!--Menu items-->
+          <div class="hidden md:hidden space-x-6 font-medium">
+            <a href="./">Bosh sahifa</a>
+            <a href="./#about">Biz haqimizda</a>
+            <a href="./#projects">Loyihalar</a>
+            <a href="./#contact">Aloqa</a>
+          </div>
+          <div class="hidden md:flex space-x-6 font-medium">
+            <a class="px-5 py-3 bg-cyan-400" href="https://t.me/b_bakirov"
+              ><i class="fa-brands fa-telegram fa-lg" style="color: #00fbff;"></i
+            ></a>
+            <a class="px-5 py-3" href="tel:+998913544655"
+              ><i class="fa-solid fa-phone fa-lg" style="color: #00fbff;"></i
+            ></a>
+            <a class="px-5 py-3 " href="https://www.instagram.com/brayohybe/"
+              ><i class="fa-brands fa-instagram fa-xl" style="color: #00fbff;"></i></i
+            ></a>
+            <a class="px-5 py-3 " href="https://www.instagram.com/brayohybe/"
+              ><i class="fa-solid fa-location-dot fa-lg" style="color: #00fbff;"></i></i
+            ></a>
+          </div>
+          <a
+            href="javascript:void(0);"
+            class="icon md:hidden"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars p-5"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <!--Hero-->
+    <div class="container w-full mx-auto pb-0 min-h-[60vh] max-w-7xl px-5">
+      <main class="gap-4 flex-col pt-9">
+        <section
+          class="p-6 md:p-12 pb-0 md:pb-0 shadow-sm bg-secondary rounded-md flex items-center md:items-end flex-col md:flex-row gap-4 justify-between min-h-64"
+        >
+          <div class="flex flex-col gap-4 pb-12 w-full">
+            <h2 class="text-4xl md:text-5xl text-start xl:text-7xl font-bold" style="color: #00ffff; font-family: SALongBeach; font-style: bold;">
+            DAROMADGA<br />ELTUVCHI DIGITAL MARKETING
+            </h2>
+            <p class="max-w-lg text-lg" style="font-family: SALongBeach;">
+              ⚡️ CYAN.uz bilan ishlang va biznesingizni keyingi bosqichga olib
+              chiqing!
+            </p>
+          </div>
+          <img
+            alt="team"
+            loading="lazy"
+            width="620"
+            height="200"
+            decoding="async"
+            data-nimg="1"
+            class="w-full md:w-2/5"
+            style="color: transparent"
+            src="./assets/hero1.svg"
+          />
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
